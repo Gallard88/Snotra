@@ -1,4 +1,5 @@
 #!/bin/bash
+### BEGIN INIT INFO
 # Provides:          SnotraDaemon
 # Required-Start:    $syslog
 # Required-Stop:     $syslog
@@ -6,6 +7,7 @@
 # Default-Stop:      0 1 6
 # Short-Description: Example SnotraDaemon
 # Description:       Start/Stops Snotra Daemon
+### END INIT INFO
 
 SOCKET="/tmp/.Snotra.Socket"
 start() {
