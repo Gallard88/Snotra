@@ -9,7 +9,7 @@ import (
 
 const (
 	uSock  = "/tmp/.Snotra.Socket"
-	LogDir = "./"
+	LogDir = "/var/log/Snotra/"
 )
 
 type ClientMsg struct {
